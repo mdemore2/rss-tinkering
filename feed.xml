@@ -1,14 +1,26 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+<feed version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
     <title>My Test Feed :)</title>
-    <link></link>
-    <description>tinkering with rss</description>
-    <language>en-us</language>
-    <item>
+    <link href="https://raw.githubusercontent.com/mdemore2/rss-tinkering/refs/heads/main/feed.xml" />
+    <updated>2025-01-19T15:41:36Z</updated>
+    <subtitle>tinkering with rss</subtitle>
+    <entry>
+      <id>1</id>
       <title>my first item</title>
-      <description>this is an item in my rss feed</description>
-      <enclosure url="https://images.unsplash.com/photo-1737157998574-2a75f0c52a09" type="image/jpeg" />
-    </item>
-  </channel>
-</rss>
+      <updated>2025-01-19T15:51:18Z</updated>
+      <content type="html">
+        <h3>this is an item in my rss feed</h3>
+        <img src="https://images.unsplash.com/photo-1737157998574-2a75f0c52a09" type="image/jpeg" />
+      </content>
+    </entry>
+    <entry>
+      <id>2</id>
+      <title>new item</title>
+      <updated>2025-01-19T15:51:18Z</updated>
+      <content type="html">
+        <h3>my new item for my feed</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis dolor in erat tincidunt cursus. Praesent non tristique nisl. Phasellus placerat, enim gravida pulvinar ultricies, magna est iaculis arcu, in porttitor quam neque nec nulla. Quisque metus risus, blandit sed pretium finibus, cursus vitae nibh. Integer a urna tempor, cursus libero sit amet, fringilla ante. Ut luctus tincidunt auctor. Ut rutrum nunc pharetra, finibus lorem nec, interdum enim. Curabitur aliquet tellus eros, nec egestas quam maximus in. Nunc tincidunt convallis vulputate. Proin eget enim ut orci viverra pretium. Nullam sodales bibendum scelerisque. Praesent eros neque, tristique posuere aliquet ut, sollicitudin eu nisl. Integer ut vestibulum ipsum. Integer congue, arcu id faucibus tincidunt, lorem eros hendrerit augue, a lacinia justo quam quis nibh. Nulla vitae nulla libero. Nulla commodo varius tempor.<p>
+      </content>
+
+</feed>
