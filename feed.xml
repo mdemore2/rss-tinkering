@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <feed version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <id>https://raw.githubusercontent.com/mdemore2/rss-tinkering/refs/heads/main/feed.xml</id>
     <title>My Test Feed :)</title>
     <link href="https://raw.githubusercontent.com/mdemore2/rss-tinkering/refs/heads/main/feed.xml" />
     <updated>2025-01-19T15:41:36Z</updated>
     <subtitle>tinkering with rss</subtitle>
     <entry>
-      <id>1</id>
+      <id>https://raw.githubusercontent.com/mdemore2/rss-tinkering/refs/heads/main/feed.xml/1</id>
       <title>my first item</title>
       <updated>2025-01-19T15:51:18Z</updated>
       <content type="html">
@@ -14,7 +15,7 @@
       </content>
     </entry>
     <entry>
-      <id>2</id>
+      <id>https://raw.githubusercontent.com/mdemore2/rss-tinkering/refs/heads/main/feed.xml/2</id>
       <title>new item</title>
       <updated>2025-01-19T15:51:18Z</updated>
       <content type="html">
