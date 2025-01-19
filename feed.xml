@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Test Feed :)</title>
+    <link></link>
+    <description>tinkering with rss</description>
+    <language>en-us</language>
+    <item>
+      <title>my first item</title>
+      <description>this is an item in my rss feed</description>
+      <enclosure url="https://images.unsplash.com/photo-1737157998574-2a75f0c52a09" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
